@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* メインーデザイン一覧 */
+main h3 {
+    color: #777;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+/* リンク */
+.nav {
+    margin: 0 15%;
+    height: 40px;
+}
+.link ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: table;
+}
+.link li {
+    display: table-cell;
+}
+.link li a {
+    text-decoration: none;
+    color: #777;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin: 10px;
+    padding: 20px;
+    transition: .3s;
+}
+.link li a:hover {
+    color: #000;
+    transition: 0.9s;
+}
+
+/* デザイン */
+.all h2 {
+    text-align: center;
+    color: #aaa;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 8px;
+    font-family: sans-serif;
+}
+.all ul {
+    margin: 0 auto;
+    list-style: none;
+    display: table;
+}
+.all li {
+    padding: 10px;
+    display: table-cell;
+}
+.all img {
+    width: 300px;
+}
+.all a {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.all a:hover img {
+    opacity: 60%;
+    transition: 0.9s;
+}
+.illust img {
+    width: 200px;
+}

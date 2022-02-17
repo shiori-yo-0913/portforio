@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/* ヘッダー画像　*/
+.top {
+	padding-top: 180px;
+	padding-bottom: 250px;
+	background-image: url(img/top-image.png);
+	background-size: cover;
+	color: white;
+}
+/* ヘッダー文字　*/
+.top h1 {
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 48px;
+	background-color: black;
+	opacity: 0.7;
+	letter-spacing: 5px;
+	max-width: 450px;
+	text-align: center;
+}
+.top h2 {
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 43px;
+	background-color: black;
+	opacity: 0.7;
+	letter-spacing: 5px;
+	max-width: 450px;
+	text-align: center;
+}
+.top p {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+	background-color: black;
+	opacity: 0.7;
+	letter-spacing: 5px;
+	max-width: 500px;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+/*　ボックスの左右　*/
+.mian,.aisatu,.sekou,.mail {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* 会社情報　*/
+.main {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.main img {
+	margin: 0 0 5px 0;
+	width: 450px;
+}
+.main h1 {
+	margin-bottom: 10px;
+	padding: 0;
+	font-size: 48px;
+	filter: drop-shadow(5px 5px 2px #717171)
+}
+.main h2 {
+	margin: 30px 0 10px 0;
+	padding: 0;
+	font-size: 25px;
+}
+.main p {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: #2A2A2A;
+}
+
+/*　施工実績　*/
+.sekou {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #212230;
+	color: white;
+	text-align: center;
+}
+.sekou h1 {
+	margin-top: 30px;
+	font-size: 48px;
+	filter: drop-shadow(5px 5px 2px #717171)
+}
+.sekou p {
+	margin: 20px;
+	font-size: 18px;
+	margin-bottom: 30px;
+	color: #CFCFCF;
+}
+
+/* メールボックス　*/
+.mail {
+	padding: 40px 0;
+	background-color: #757682;
+	text-align: center;
+} 
+.mail h1 {
+	margin-bottom: 10px;
+	padding: 0;
+	font-size: 48px;
+	color: white;
+	filter: drop-shadow(5px 5px 2px #ACACAC)
+}
+/* メールフォーム */
+.box p {
+    font-size: 14px;
+    margin: 2px;
+}
+.box,.email,.message{
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: white;
+    margin: 10px auto;
+    padding: 40px 30px;
+    width: 40%;
+    text-align: left;
+    border-radius: 10px;
+}
+.email input[type='text'] {
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 60%;
+    letter-spacing: 1px;
+}
+.email input[type='text']:focus {
+    outline: none;
+}
+#email {
+    padding: 4px 0;
+    border: 0;
+    border-bottom: 1px solid #1b2538;
+    background-color: transparent;
+}
+.message input[type='text']{
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    letter-spacing: 1px;
+}
+.message input[type='text']:focus {
+    outline: none;
+}
+#msg {
+    border: 0;
+    border-bottom: 1px solid #1b2538;
+    background-color: transparent;
+}
+::placeholder {
+    color: #aaa;
+    font: 18px;
+}
+.button {
+    pointer-events: none;
+    border: 0;
+    border-radius: 5px;
+    background: #394253;
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 16px;
+}
+.button:hover {
+    background: #4b5972;
+}
+/* Googleフォーム */
+span .appsMaterialWizButtonPaperbuttonLabel{
+    display: none;
+}

@@ -1,0 +1,350 @@
+/* 220px以下 */
+@media (max-width: 220px){
+    /* common.css start*/
+    /* ナビゲーション */
+    .nav {
+        margin: 0;
+    }
+    .nav ul {
+        text-align: center;
+    }
+    .nav li a {
+        margin: 0;
+        padding: 5px;
+    }
+    /* フッター */
+    footer p {
+        font-size: 10px;
+        letter-spacing: 2px;
+        margin: 10px auto;
+    }
+    /* common.css end */
+    
+    /* index.css  start*/
+    /* サイトTOP */
+    .top-logo img {
+        width: 220px;
+    }
+    /* ナビゲーション */
+    .top-nav {
+        display: block;
+    }
+    /* GIFアニメーション */
+    .top-gif img {
+        margin-left: 10px;
+        width: 200px;
+    }
+    /* index.css end */
+    
+    /* about.css start */
+    /* サイトTOP */
+    .top {
+        margin: 0;
+        }
+    .top h1 {
+        text-align: center;
+        padding: 0;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    /* メイン */
+    main {
+        padding: 5px;
+    }
+    main h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .me {
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+    dt {
+        margin-top: 10px;
+        width: 100%;
+        text-align: left;
+        font-weight: 200;
+        line-height: 1;
+        font-size: 15px;
+    }
+    dd {
+        clear: left;
+        margin-left: 0;
+        width: auto;
+        text-align: center;
+        font-size: 12px;
+    }
+    .me-img {
+        margin: 0 auto;
+    }
+    /* SNS */
+    #twitter img {
+        width: 25px;
+    }
+    #insta img {
+        width: 25px;
+    }
+    /* 経緯 */
+    .prof {
+        text-align: left;
+    }
+    .prof h4 {
+        font-size: 15px;
+    }
+    .prof p {
+        font-size: 12px;
+    }
+    /* スキル */
+    .skill ul {
+        display: block;
+        padding: 0;
+        
+    }
+    .skill li {
+        display: block;
+        width: 210px;
+        margin:  5px auto;
+        padding: 4px 0;
+        font-size: 8px;
+    }
+    /* メッセージ */
+    .message {
+        margin: 0;
+    }
+    .message h3 {
+        font-size: 15px;
+    }
+    .message p {
+        text-align: left;
+        font-size: 12px;
+    }
+    /* about.css end */
+    
+    /* all.css start */
+    /* リンク */
+    .link ul {
+        display: block;
+        width: auto;
+    }
+    .link li {
+        display: block;
+        text-align: center;
+    }
+    .link li a {
+        padding: 2px;
+    }
+    /* デザイン */
+    .all h2 {
+        padding-top: 15px;
+    }
+    .all ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+    .all li {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .all img {
+        width: 90%;
+    }
+    /* all.css end */
+    
+}
+/* 220px以下 end */
+
+/* スマートフォン */
+@media (min-width: 221px) and (max-width: 670px){
+    /* common.css start*/
+    /* ナビゲーション */
+    .nav {
+        margin: 0;
+    }
+    .nav ul {
+        text-align: center;
+    }
+    .nav li a {
+        margin: 0;
+        padding: 15px;
+    }
+    /* フッター */
+    footer p {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    /* common.css end */
+    
+    /* index.css  start*/
+    /* サイトTOP */
+    .top-logo img {
+        width: 300px;
+    }
+    /* ナビゲーション */
+    .top-nav {
+        display: block;
+    }
+    /* GIFアニメーション */
+    .top-gif img {
+        margin-left: 20px;
+        width: 250px;
+    }
+    /* index.css end */
+    
+    /* about.css start */
+    /* サイトTOP */
+    .top {
+        margin: 0;
+        }
+    .top h1 {
+        text-align: center;
+        padding: 0;
+        padding-top: 20px;
+        font-size: 32px;
+    }
+    /* メイン */
+    main {
+        padding: 10px;
+    }
+    main h2 {
+        text-align: center;
+    }
+    .me {
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+    dt {
+        margin-top: 10px;
+        width: 100%;
+        text-align: left;
+        font-weight: 400;
+        line-height: 1.6;
+    }
+    dd {
+        clear: left;
+        margin-left: 0;
+        width: auto;
+        text-align: center;
+    }
+    .me-img {
+        margin: 0 auto;
+    }
+    /* SNS */
+    #twitter img {
+        width: 25px;
+    }
+    #insta img {
+        width: 25px;
+    }
+    /* 経緯 */
+    .prof {
+        text-align: left;
+    }
+    /* スキル */
+    .skill ul {
+        display: block;
+    }
+    .skill li {
+        display: block;
+        width: 90%;
+        margin:  5px 0;
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    /* メッセージ */
+    .message {
+        margin: 0;
+    }
+    .message p {
+        text-align: left;
+    }
+    /* about.css end */
+    
+    /* all.css start */
+    /* リンク */
+    .link ul {
+        display: block;
+        width: auto;
+    }
+    .link li {
+        display: block;
+        text-align: center;
+    }
+    .link li a {
+        padding: 5px;
+    }
+    /* デザイン */
+    .all h2 {
+        padding-top: 15px;
+    }
+    .all ul {
+        display: block;
+        margin: 0 auto;
+    }
+    .all li {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .all img {
+        width: 90%;
+    }
+    /* all.css end */
+}
+
+/* タブレット */
+@media (min-width: 671px) and (max-width: 1024px) {
+	/* about.css start */
+    /* メイン */
+    main {
+        padding: 10px;
+    }
+    main h2 {
+        text-align: center;
+    }
+    .me {
+        margin: 0 10%;
+        flex-direction: column-reverse;
+    }
+    dl{
+        line-height: 1.6;
+    }
+    dt {
+        float: left;
+        font-weight: 400;
+    }
+    dd {
+        margin-left: 80px;
+        width:  80%;
+    }
+    .me-img {
+        margin: 0 auto;
+    }
+    /* 生い立ち */
+    .prof {
+        margin: 0 10%;
+    }
+    /* スキル */
+    .skill li {
+        padding: 10px 20px;
+    }
+    /* メッセージ */
+    .message {
+        margin: 0 10%;
+    }
+    /* about.css end */
+    
+    /* all.css start */
+    /* デザイン */
+    .all ul {
+        padding: 0;
+    }
+    .all img {
+        width: 100%;
+    }
+    /* all.css end */
+}

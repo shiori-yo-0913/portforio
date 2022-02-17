@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* メインーデザイン一覧 */
+main{
+    padding: 0 10%;
+}
+main h2{
+    color: #777;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+}
+#main-img{
+    text-align: center;
+}
+#main-img img{
+    width: 90%;
+}
+
+/* メイン-移動 */
+#move{
+    text-align: center;
+}
+#move a{
+    text-decoration: none;
+    padding: 0 40px;
+    color: #666;
+    display: inline-block;
+	transition: all .3s ease 0s;
+}
+#move a:hover{
+    color: #000;
+    cursor: pointer;
+    transform: scale(1.4);
+}
+
+/* 作品説明 */
+#work-about {
+    color: #666;
+    font-family: sans-serif;
+}
+#work-about h3{
+    background: url("../img/icon-check.png") no-repeat;
+    background-size: 20px;
+    background-position: left;
+    padding: 15px 0 15px 30px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+#work-about p{
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+#work-about a{
+    color: #666;
+}
+#work-about a:hover{
+    color: #000;
+    transition: 0.5s;
+}
+/* フッター */
+.foot{
+    margin-top: 100px;
+    clear: both;
+}
+footer p{
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+footer a{
+    color: #aaa;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #000;
+    transition: 0.9s;
+}

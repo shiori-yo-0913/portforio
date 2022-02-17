@@ -1,0 +1,78 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WEBSITE</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    
+<!-- CSS -->
+<link rel="stylesheet" href="tameshi.css">
+    
+</head>
+<body>
+    <!--  選択式radiobox  -->
+    <div class="select_button_area">
+        <input type="radio" checked="checked" name="select" id="select1" value="pc">
+            <label for="select1">PC</label>
+        <input type="radio" name="select" id="select2" value="mobile">
+            <label for="select2">Mobile</label>
+    </div>
+    <!-- pcとmobileの画面を表示します -->
+    <!-- PCの画面にHPを表示します -->
+    <div class="waku">
+        <div class="pc">
+            <div class="frame">
+            <iframe src="kabushiki.html" width="800px" height="495px"></iframe>
+        </div>
+        </div>
+        <!-- mobileの画面にHPを表示します -->
+        <div class="mobile">
+            <div class="frame">
+            <iframe src="kabushiki.html" width="220px" height="445px"></iframe>
+        </div>
+        </div>
+    </div>
+</body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+<!--jQueryの読み込みの後に、以下のコードを追加 -->
+<script>
+  $(function() {
+      // 切り替えボタンクリック時機能
+      // PC版
+      $("#select1").on("click",function(){
+          // スマホ版画面を非表示にする
+          $(".pc").css("display","block");
+          $(".mobile").css("display","none");
+          $(window).resize();
+      });
+      // スマホ版
+      $("#select2").on("click",function(){
+          // PC版画面を非表示にする
+          $(".mobile").css("display","block");
+          $(".pc").css("display","none");
+          $(window).resize();
+      });
+      
+      // loadかresizeした時に呼びだされる関数
+      $(window).on('load resize',function(){
+          // .pc iframeの横幅を取得
+          var pc_size = $('.pc').width();
+          // 元々の横幅との割合を計算
+          var pc_keisan = pc_size / 800;
+          // .mobile iframe の横幅を取得
+          var mobile_size = $('.mobile').width();
+          //　元々の横幅との割合を計算
+          var mobile_keisan = mobile_size / 220;
+          // それぞれの割合を画面に反映
+          $('.pc iframe').css('transform', 'scale(' + pc_keisan + ')');
+          $('.mobile iframe').css('transform', 'scale(' + mobile_keisan + ')');
+      });
+          
+          
+//     // jQueryを使ってiframeを縮小transform:scale('0.2');
+//      var str = 0.3 + 0.1;
+//     $('.pc').css('transform', 'scale('+ str + ')'); 
+      
+  });
+</script>
+</html>

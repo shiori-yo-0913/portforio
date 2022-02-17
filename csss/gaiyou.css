@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*　会社情報　*/
+.gaiyou {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.gaiyou img{
+	margin-top: 20px;
+	width: 450px;
+}
+.gaiyou h1{
+	margin-top: 30px;
+	font-size: 48px;
+	filter: drop-shadow(5px 5px 2px #717171);
+}
+.gaiyou h2{
+	margin-top: 30px;
+	font-size: 28px;
+	filter: drop-shadow(5px 5px 2px #717171);
+}
+.gaiyou p{
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+/*　表彰・許可証　*/
+.syou {
+	padding-top: 30px;
+	padding-bottom: 60px;
+	background-color: #4D3D33;
+	color: white;
+	text-align: center;
+}
+.syou h1{
+	margin-top: 30px;
+	font-size: 48px;
+	filter: drop-shadow(5px 5px 2px #717171)
+}
+.syou p{
+	margin: 20px;
+	font-size: 20px;
+	color: #C5C5C5;
+}
+
+.kyoka {
+	padding-top: 30px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.kyoka h1{
+	margin-top: 30px;
+	font-size: 48px;
+	filter: drop-shadow(5px 5px 2px #393939)
+}
+.kyoka p{
+	margin: 20px;
+	font-size: 20px;
+	color: #2A2A2A;
+}

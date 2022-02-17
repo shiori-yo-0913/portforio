@@ -1,0 +1,121 @@
+/* スマートフォン */
+@media (max-width: 670px){
+    /* common.css */
+    /*ナビゲーションメニュー*/
+    .blog-menu2 {
+        margin: 40px 0;
+        padding: 0;
+    }
+    a {
+        padding: 5px;
+    }
+    
+    /* yui.css */
+    .blog-top {
+        clear: both;
+        width: 100%;
+        height: 0;
+        padding: 0;
+        font-size: 40px;
+    }
+    .main-right {
+        clear: both;
+        width: 100%;
+    }
+    blog-image img {
+        width: 100%;
+    }
+    
+    /* me.html */
+    /* ポジション */
+    .me-main-top {
+        display: block;
+    }
+    .top-left {
+        display: block;
+    }
+    .top-right {
+        display: none;
+    }
+    /* メイン下部　ポジション */
+    .me-main-bottom {
+        display: block;
+    }
+    .bottom-left {
+        display: block;
+    }
+    .bottom-right {
+        display: none;
+    }
+    /* プロフィール画像 */
+    .top-left img {
+        clear: both;
+        width: 95%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    /* プロフィール */
+    .comment h1 {
+        clear: both;
+        margin: 0;
+        text-align: center;
+        padding: 0;
+        font-size: 38px;
+    }
+    .comment h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .bottom-left h1 {
+        text-align: center;
+        padding: 10px 0 0;
+        font-size: 38px;
+    }
+    .bottom-left h2 {
+        font-size: 10px;
+    }
+    .bottom-left p {
+        font-size: 15px;
+        padding: 0;
+    }
+    .bottom-left ul {
+        padding: 0;
+    }
+    .bottom-left li {
+        padding-left: 30px;
+        font-size: 18px;
+        background: url("../img/icon.png") no-repeat;
+        background-size: 28px auto;
+    }
+    
+    /* history.css */
+    .history {
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+    .history h1 {
+        margin: 0;
+        font-size: 30px;
+        text-align: center;
+    }
+    .history ul {
+        list-style: none;
+        margin: 0 5px;
+        padding: 0;
+    }
+    .history li {
+        margin-top: 20px;
+        padding-left: 30px;
+        font-size: 18px;
+        background: url("../img/icon.png") no-repeat;
+        background-size: 28px auto;
+    }
+    .history p {
+        margin: 0;
+        margin-left: 8px;
+        line-height: 1.6;
+        font-size: 14px;
+    }
+    
+}

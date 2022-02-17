@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* ブログの最上部 */
+.site-top {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-family: cursive;
+    background-color: #ffffff;
+    width: 100%;
+    height:25px;
+    box-shadow:  0 0 10px #808080;
+    top: 0;
+    position: fixed;
+    text-shadow: 2px 1px 3px #808080;
+}
+/*ナビゲーションメニュー*/
+.blog-menu2 {
+    margin-top: 50px;
+    padding: 15px 5px 0;
+    background-color: #ffffff;
+    font-family: cursive;
+}
+a {
+    color:#6e4a55;
+    padding: 15px 10px;
+}
+a:hover {
+    color:#300000;
+    background-color:#C5B6B6;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+/* 最下部 */
+.under {
+	position: relative;
+	padding-bottom: 5%;
+	text-align: right;
+	bottom: 0;
+	padding: 10px 10px 5px 5px;
+}
+.footer {
+    text-shadow: 1px 2px 3px #808080;
+    position: absolute;
+    bottom: 0;
+}

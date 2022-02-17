@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*　住所　*/
+.access {
+	margin: 10px;
+}
+.access h1{
+	margin-top: 30px;
+	margin-bottom: 5px;
+	font-size: 38px;
+	filter: drop-shadow(5px 5px 2px #717171)
+}
+.access p{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: #2A2A2A;
+}
+.access a{
+	padding: 1px 15px;
+	color: #000000;
+	font-size: 18px;
+	text-decoration: none;
+}
+.access a:hover{
+	background-color: #eeeeee;
+	transition: 0.5s;
+}
+
+/*　地図　*/
+.tizu {
+	margin: 0 20px 40px 20px;
+	text-align: center;
+}
+.tizu iframe{
+	width: 800px;
+}

@@ -1,0 +1,121 @@
+@charset "utf-8";
+.gallery {
+    width: 90%;
+    margin: 50px auto;
+}
+.hp img {
+    width: 100%;
+}
+/* HP画像のリンク、hover */
+.image_link{
+    display:block; 
+    position:relative;
+    text-decoration:none;
+}
+.image_link:before{
+    content:"";
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    z-index:2;
+    background:#000;
+    opacity:0;
+    transition:0.3s;
+}
+.image_link:after{
+  content:"READ MORE";
+  display:block;
+  color:#fff;
+  line-height:48px;
+  width:180px;
+  border:solid 1px #fff;
+  border-radius:5px;
+  text-align:center;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-1em;
+  margin-left:-90px;
+  opacity:0;
+  z-index:3;
+  transition:0.3s;
+  font-weight:bold;
+  letter-spacing:0.2em;
+}
+.image_link:hover:before{
+  opacity:0.5;
+}
+.image_link:hover:after{
+  opacity:1;
+  margin-top:-0.5em;
+}
+/* GIF */
+.raptec {
+    padding: 10px auto;
+    text-align: center;
+}
+.banner {
+    width: 65%;
+}
+.gif {
+    width: 25%;
+}
+
+/* LINEスタンプたち */
+ul img {
+    width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: left; 
+    display: flex;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li ::before{
+    content: "";
+    position: absolute;
+    width: 18%;
+    height: 26%;
+    z-index: 2;
+    transition: background-color 0.5s;
+}
+li a:hover::before {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity:0.5;
+}
+/* li ::after {
+    content: "READ MORE";
+    font-size: 12px;
+    padding: 0 8px;
+    color: #fff;
+    text-align: center;
+    line-height:40px;
+    border:solid 1px #fff;
+    border-radius:5px;
+    text-align:center;
+    position:absolute;
+    left: 3.2%;
+    top: 35%;
+    transition:0.3s;
+    opacity:0;
+    z-index:3;
+    font-weight:bold;
+    letter-spacing:0.2em;
+}
+li a:hover::after{
+    opacity:1;
+    margin-top:0.5em;
+}
+*/
+
+.graphic {
+    text-align: center;
+}
+.graphic img{
+    width: 30%;
+}

@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* 本文 */
+/* 自己紹介 */
+main h2 {
+    text-align: center;
+    color: #666;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+.me {
+    margin: 0 18%;
+    display: flex;
+    justify-content: space-around;
+}
+.me-text {
+    flex-basis: calc(75%);
+    color: #666;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+dl{
+    line-height: 1.6;
+}
+dt {
+    float: left;
+}
+dd {
+    margin-left: 80px;
+    width:  80%;
+}
+/* プロフィール画像 */
+.me-img{
+    flex-basis: calc(25%);
+}
+.me-img img {
+    width:  200px;
+}
+/* SNS */
+#twitter img {
+    width: 30px;
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+#twitter:hover img {
+    opacity: 0.6;
+    transition-duration: 0.9s;
+}
+#insta img {
+    width: 30px;
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+#insta:hover img {
+    opacity: 0.6;
+    transition-duration: 0.9s;
+}
+/* 生い立ち */
+.prof {
+    height: auto;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.prof h4 {
+    font-weight: 200;
+    padding: 15px 0;
+    color: #000;
+    letter-spacing: 5px;
+}
+.prof p {
+    color: #666;
+    letter-spacing: 2px;
+}
+
+/* スキル */
+.skill ul {
+    margin: 0 auto;
+    list-style: none;
+    display: table;
+}
+.skill ul,img {
+    vertical-align: middle;
+}
+.skill li {
+    padding: 10px 40px;
+    display: table-cell;
+    width: 300px;
+    color: #666;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+.skill li img {
+    width: 30px;
+}
+.skill span {
+    font-weight: 400;
+    margin-left: 5px;
+    color: #444;
+}
+
+/*　メッセージ　*/
+main h3 {
+    padding-top: 50px;
+    clear: left;
+    text-align: center;
+    color: #666;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+.message {
+    margin: 0 20%;
+    margin-bottom: 80px;
+}
+.message p {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+
+

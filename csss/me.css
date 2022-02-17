@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* メイン上部　ポジション */
+.me-main-top {
+    display: flex;
+}
+.top-left {
+	flex: calc(70%);
+}
+.top-right {
+    flex: calc(30%);
+}
+/* メイン下部　ポジション */
+.me-main-bottom {
+    display: flex;
+}
+.bottom-left {
+	flex: calc(70%);
+}
+.bottom-right {
+    flex: calc(30%);
+}
+/* プロフィール画像 */
+.top-left img {
+	padding: 60px 10px;
+	float: left;
+	width: 350px;
+}
+/*メイン上部　左側の文字*/
+.comment h1 {
+	font-family: alex-brush;
+	font-size: 48px;
+	letter-spacing: 3px;
+    padding-left: 60px;
+	margin-top: 90px;
+}
+.comment h2 {
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+.comment p {
+	padding: 0 80px 20px 0;
+	font-size: 18px;
+}
+.comment ul{ 
+	padding-left: 90px;
+	margin-bottom: 10px;
+	list-style: none;
+}
+.comment li {
+	padding-left: 50px;
+	line-height: 1.6em;
+	background: url("../img/icon.png") left 10px top 0px no-repeat;
+	background-size: 45px auto; 
+	font-size: 24px;
+	text-decoration-line: underline;
+	text-decoration-color: #6e4a55;
+	text-decoration-style: wavy;
+}
+/*メイン上部の右側*/
+.top-right {
+	padding: 15px 0;
+	background-color: #ffffff;
+}
+.insta {
+	margin: 20px 60px;
+	padding: 10px 5px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #909090;
+	font-size: 80%;
+}
+.insta-img {
+	width: 70%;
+	padding: 20px 10px 0 10px;
+}
+.contents ul {
+	padding: 20px 15px;
+	margin: 0 60px;
+	list-style: none;
+	border: 2px #754B7C dashed;
+}
+.contents li {
+	text-align: center;
+	font-size: 120%;
+}
+.contents h1 {
+	margin: 2px;
+	text-align: center;
+	font-size: 120%;
+	background-color: #9A8B9D;
+}
+
+/*メイン下部　左側の文字*/
+.bottom-left h1 {
+	font-family: alex-brush;
+	font-size: 48px;
+	letter-spacing: 3px;
+    padding-left: 60px;
+	margin: 0
+}
+.bottom-left h2 {
+	letter-spacing: 3px;
+}
+.bottom-left p {
+	padding: 0 80px 20px 0;
+	font-size: 18px;
+}
+.bottom-left ul { 
+	padding-left: 90px;
+	margin-bottom: 10px;
+	list-style: none;
+}
+.bottom-left li {
+	padding-left: 50px;
+	line-height: 1.6em;
+	background: url("../img/icon.png") left 10px top 0px no-repeat;
+	background-size: 45px auto; 
+	font-size: 24px;
+	text-decoration-line: underline;
+	text-decoration-color: #6e4a55;
+	text-decoration-style: wavy;
+}

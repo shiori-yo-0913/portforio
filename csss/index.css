@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+}
+
+/* サイトTOP */
+.top-logo {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15%;
+}
+.top-logo img {
+    width: 400px;
+}
+
+/* ナビゲーション */
+.top-nav {
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    margin: 0;
+    flex-basis: calc(50% - 100px);
+}
+/* GIFアニメーション */
+.top-gif {
+    flex-basis: calc(50% - -100px);
+}
+.top-gif img {
+    width: 300px;
+}
